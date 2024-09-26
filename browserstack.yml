@@ -1,0 +1,16 @@
+userName: BROWSERSTACK_USERNAME
+accessKey: BROWSERSTACK_ACCESS_KEY
+framework: testng
+platforms:
+  - deviceName: iPhone 14
+    osVersion: 18
+    browserName: chromium
+    deviceOrientation: portrait
+  - deviceName: Samsung Galaxy S22 Ultra
+    osVersion: 12.0
+    browserName: chrome
+    deviceOrientation: portrait
+parallelsPerPlatform: 1
+browserstackLocal: false
+buildName: Custom_Build
+projectName: BrowserStack Sample
